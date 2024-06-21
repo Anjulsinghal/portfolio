@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link to New</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        .main{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-image: url("port.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
+    <script type="text/javascript">
+        // Function to redirect the user after 10 seconds
+        function redirectAfterDelay() {
+            setTimeout(function() {
+                window.location.href = 'https://portfolio-anjulsinghals-projects.vercel.app/'; // Replace with your desired URL
+            }, 1000); // 10000 milliseconds = 10 seconds
+        }
+
+        // Run the redirect function when the page loads
+        window.onload = redirectAfterDelay;
+    </script>
+</head>
+<body>
+    <div class="main">
+    </div>
+</body>
+</html>
